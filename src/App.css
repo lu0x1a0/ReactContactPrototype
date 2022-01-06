@@ -12,8 +12,60 @@
     margin-left:12px;
     width :100%;
     padding: "4px";
+    color: white;
 
 }
+.ContactDetailModal{
+    background-color: rgb(70, 70, 70);
+    border-width: 2px;
+    border-radius: 8px;
+    color: white;
+
+}
+.ModalContent{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.CloseModalButton{
+    position: absolute;
+    right:8px
+    padding
+}
+
+.CircleText{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background: rgb(65, 65, 65)
+}
+.CircleText > span{
+    margin-left: 80px;
+}
+/* unvisited link */
+a:link {
+    color: rgb(240, 240, 240);
+}  
+/* visited link */
+a:visited {
+color: rgb(207, 207, 207);
+}
+
+/* mouse over link */
+a:hover {
+color: rgb(203, 208, 255);
+}
+
+/* selected link */
+a:active {
+color: rgb(203, 208, 255);
+}
+
+
 /* Solid border */
 hr.solid {
     border-top: 3px solid rgb(59, 59, 59);
