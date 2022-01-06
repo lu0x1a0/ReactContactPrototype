@@ -5,11 +5,13 @@
 3. `npm install`
 4. `npm start`
 5. access the webpage from the either the default address `localhost:3000` in browser or others depending on your setting. 
-### ScreenShots
+### ScreenShots:
 ![](main_ss.png)
 Modal accessible by clicking on each contact inside the list.
 ![](modal_ss.png)
-The address has a link that leads to the a Google map location provided in the sample geo json data. 
+The address has a link that leads to the a Google map location provided in the sample geo json data that surprising lead to the middle of nowhere! lol.  
+![](map_ss.png)
+
 
 
 ### Note:
