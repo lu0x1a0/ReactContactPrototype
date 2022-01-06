@@ -14,7 +14,7 @@ function Entry(props){
         closeOnOverlayClick: false
       })
     console.log(props.displayData.address)
-    const addressGoogle = "https://www.google.com/maps?"+props.displayData.address.geo.lat+","+props.displayData.address.geo.lng
+    const addressGoogle = "https://www.google.com/maps?q="+props.displayData.address.geo.lat+","+props.displayData.address.geo.lng
     const names = props.name.split(' ') 
     //var {names[0][0]}{names[names.length][0]}
     return (
@@ -44,7 +44,7 @@ function Entry(props){
                         Phone<br/>
                         <hr className = "solid"/>
 
-                        <b>{props.displayData.website}</b><br/>
+                        <a href = {"https://"+props.displayData.website}><b>{props.displayData.website}</b></a><br/>
                         Website<br/>
                         <hr className = "solid"/>
 
